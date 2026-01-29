@@ -5,14 +5,14 @@ public class Customer {
   private String name;
   private String username;
   private String password;
-  private String accountId;
+  private int account_Id;
 
-  public Customer(int id, String name, String username, String password, String accountId) {
+  public Customer(int id, String name, String username, String password, int accountId) {
     setId(id);
     setName(name);
     setUsername(username);
     setPassword(password);
-    setAccountId(accountId);
+    setAccount_Id(accountId);
   }
 
   public int getId() {
@@ -47,12 +47,12 @@ public class Customer {
     this.password = password;
   }
 
-  public String getAccountId() {
-    return this.accountId;
+  public int getAccount_Id() {
+    return this.account_Id;
   }
 
-  public void setAccountId(String accountId) {
-    this.accountId = accountId;
+  public void setAccount_Id(int accountId) {
+    this.account_Id = accountId;
   }
 
 }
