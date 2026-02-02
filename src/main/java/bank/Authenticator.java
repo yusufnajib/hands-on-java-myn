@@ -1,7 +1,6 @@
 package bank;
 
 import javax.security.auth.login.LoginException;
-import javax.xml.crypto.Data;
 
 public class Authenticator {
   public static Customer login(String username, String password) throws LoginException {
